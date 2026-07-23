@@ -1,7 +1,29 @@
 aid: answersnow
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/answersnow.png
 name: AnswersNow
-description: AnswersNow is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AnswersNow is a virtual Applied Behavior Analysis (ABA) therapy provider for
+  individuals with autism, delivering personalized, evidence-based care from
+  board-certified behavior analysts (BCBAs) through its proprietary telehealth
+  platform. Families access one-on-one therapy sessions, caregiver and parent
+  training, and individualized treatment plans remotely, expanding access to ABA
+  care in areas with limited in-person availability. AnswersNow accepts major
+  insurance carriers including Medicaid, is BHCOE accredited and a CASP member
+  organization, and was surfaced to the API Evangelist network as a Techstars
+  portfolio company. This profile has been enriched with company identity and
+  domain-security posture; AnswersNow publishes a consumer web application
+  (web.getanswersnow.com) but no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/answersnow/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +36,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Healthcare
+- Telehealth
+- Autism
+- ABA Therapy
+- Behavioral Health
+- Mental Health
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,20 @@ maintainers:
 common:
 - type: Website
   url: https://getanswersnow.com/
+- type: Blog
+  url: https://getanswersnow.com/blog
+- type: SignUp
+  url: https://getanswersnow.com/autism-support
+- type: Login
+  url: https://web.getanswersnow.com/
+- type: PrivacyPolicy
+  url: https://getanswersnow.com/privacy
+- type: TermsOfService
+  url: https://getanswersnow.com/terms
+- type: DomainSecurity
+  url: security/answersnow-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
